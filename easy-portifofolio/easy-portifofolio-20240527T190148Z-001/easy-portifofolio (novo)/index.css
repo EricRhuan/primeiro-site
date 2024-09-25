@@ -1,0 +1,112 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+   list-style-type: none; 
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+
+
+  
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+
+
+header img {
+    width: 150px;
+    height: 150px;
+   border: 53px;
+   border-radius: 50%;
+   border: 5px solid green;
+}
+
+.center {
+   text-align: center;
+
+}
+
+h1{
+    color: green;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav  {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: system-ui,
+   -apple-system, helvetica, arial,
+   sans-serif;
+   background: #23232e; 
+   height: 8vh;
+   
+}
+
+main {
+    background: url("bg.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
